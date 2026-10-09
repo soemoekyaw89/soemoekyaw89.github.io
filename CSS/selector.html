@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+<style>
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+        /* elementary selector */
+        h1 {
+            background-color: black;
+
+        }
+        p {
+            color: aqua;
+        }
+        /* id selector */
+        #nose {
+            background-color: pink;
+            color: brown;
+            font-size: 30px;
+           
+        }
+         /* class selector */
+        .eye-makeup {
+            color: chocolate;
+            font-size: 40px;
+        }
+        /* Attributes selector */
+        input[type="email"] {
+            background-color: black;
+            color: white;
+        }
+        /* descendant selector */
+        div p {
+            background-color: yellow;
+        }
+        /* Child selector */
+        div > p {
+            background-color: black;
+        }
+     </style>
+     
+</head>
+<body>
+    <h1>Selector lesson</h1>
+    <p>Universal Selector </p>
+    <p>Hello CSS</p>
+    <p id="nose">Nose</p>
+    <p class="eye-makeup">Left eye</p>
+    <p class="eye-makeup">Right eye</p>
+    <input type="text" name="" id="">
+    <input type="email" name="" id="">
+    <div>
+        <p>this is paragraph 1</p>
+        <p>this is paragraph 2</p>
+        <p>this is paragraph 3</p>
+        <span>
+            <p>this is paragraph 4</p>
+        </span>
+       <p>this is paragraph 5</p>
+    </div>
+</body>
+</html>

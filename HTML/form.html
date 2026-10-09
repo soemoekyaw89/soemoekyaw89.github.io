@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="request.php" method="get">
+        <label for="stu_name">Name</label>
+        <input type="text" name="stuName" id="stu_name">
+        <br><br>
+        <label for="stu_email">Email</label>
+        <input type="email" name="stuEmail" id="stu_email">
+        <br><br>
+        <label for="stu_password">Password</label>
+        <input type="password" name="stuPassword" id="stu_password">
+        <br><br>
+        <label for="stu_phone">Phone</label>
+        <input type="phone" name="stuPhone" id="stu_phone">
+        <br><br>
+        <label for="dob">Date of bird</label>
+        <input type="date" name="stuDOB" id="dob">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept=".png,.jpg" name="stupassport">
+        <br><br>
+        <label for="year">Year</label>
+        <select name="stuYear" id="year">
+            <option value="">Choose Year</option>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+            <option value="3">Third</option>
+        </select>
+       <br><br>
+       <label for="">Gender</label>
+       <br>
+       <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+       <input type="radio" name="gender" id="female" value="Female"> <label for="female"> Female</label>
+       <br><br>
+       <label for="">Hobby</label>
+       <br><br>
+       <input type="checkbox" name="reading" id="reading" value="Reading"> <label for="reading">Reading</label>
+       <input type="checkbox" name="travelling" id="travelling" value="Travelling"> <label for="travelling">Travelling</label>
+       <input type="checkbox" name="gamming" id="gamming" value="Gamming"> <label for="gamming">Gamming</label>
+       <br><br>
+       <label for="address">Address</label>
+       <textarea name="stuAdress" id="address" cols="35" rows="10"></textarea>
+       <br><br>
+       <input type="text" name="" id="" value="Yangoon">
+       <input type="text" name="" id="" value="Mandalay" readonly>
+       <input type="text" name="" id="" required>
+       <input type="time" name="" id="">
+       <input type="color" name="" id="">
+       <input type="range" name="" id="">
+       <br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
